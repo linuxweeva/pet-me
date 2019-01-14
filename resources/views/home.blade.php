@@ -10,9 +10,9 @@
 
         <h1 class="my-4">Pet me</h1>
         <div class="list-group">
-        <a href="#" class="list-group-item active">Dogs</a>
-        <a href="#" class="list-group-item">Cats</a>
-        <a href="#" class="list-group-item">Skunkss</a>
+        @foreach($categories as $category)
+        <a href="/category/{{$category->id}}" class="list-group-item">{{$category->title}}</a>
+        @endforeach
         </div>
 
     </div>

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Pet;
+use App\Category;
 
 class HomeController extends Controller
 {
@@ -25,7 +26,8 @@ class HomeController extends Controller
     public function index()
     {
         $pets = Pet::orderBy( 'id' , 'desc' ) -> paginate( 6 );
-        return view( 'home' , compact( 'pets' ) );
+        $categories = Category::get();
+        return view( 'home' , compact( 'pets', 'categories' ) );
     }
     public function showPet( Request $req , $id )
     {
