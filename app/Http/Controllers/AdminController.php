@@ -22,6 +22,7 @@ class AdminController extends Controller
     	$categories = Category::get();
     	return view('admin.categories-admin', ['categories' => $categories]);
     }
+<<<<<<< HEAD
 
 
     /**
@@ -35,4 +36,6 @@ class AdminController extends Controller
     	$categories = Category::get();
     	return view('admin.pets-admin', ['categories' => $categories]);
     }
+=======
+>>>>>>> bfdb31c1167943a87d11ac3789436d2d66fe2d5c
 }

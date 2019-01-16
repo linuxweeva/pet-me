@@ -20,6 +20,7 @@ class PetController extends Controller
     	$categories = Category::get();
     	return view('home',  compact( 'pets', 'categories' ) );
     }
+<<<<<<< HEAD
 
     /**
      * create pets by admin
@@ -32,4 +33,6 @@ class PetController extends Controller
     	Pet::create($request->only('name', 'category_id', 'about', 'age'));
     	return back();
     }
+=======
+>>>>>>> bfdb31c1167943a87d11ac3789436d2d66fe2d5c
 }
