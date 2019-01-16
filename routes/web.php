@@ -29,4 +29,7 @@ Route::get('auth/{provider}/callback', 'Auth\AuthController@handleProviderCallba
 Route::group(['middleware' => ['admin']], function () {
 	Route::get('/admin', 'AdminController@categories');
 	Route::post('admin/category/add', 'CategoryController@store');
+	Route::get('/admin/pets', 'AdminController@pets');
+	Route::post('/admin/pet/add', 'PetController@store');
+
 });

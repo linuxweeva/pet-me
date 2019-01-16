@@ -8,6 +8,7 @@ class Pet extends Model
 {
     //
     protected $table = 'pets';
+    protected $fillable = ['category_id', 'name', 'about', 'age'];
 	public function photo() {
 		return $this->hasManyThrough( 'App\Image' , 'App\PetPhoto' , 'pet_id' , 'id' , 'id' , 'photo_id' );
 	}
