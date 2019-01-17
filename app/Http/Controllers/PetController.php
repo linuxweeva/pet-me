@@ -20,4 +20,17 @@ class PetController extends Controller
     	$categories = Category::get();
     	return view('home',  compact( 'pets', 'categories' ) );
     }
+
+
+    /**
+     * create pets by admin
+     * 
+     * @param Request $request
+     * @return redirect
+     */
+    public function store(Request $request)
+    {
+    	Pet::create($request->only('name', 'category_id', 'about', 'age'));
+    	return back();
+    }
 }

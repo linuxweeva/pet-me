@@ -22,4 +22,18 @@ class AdminController extends Controller
     	$categories = Category::get();
     	return view('admin.categories-admin', ['categories' => $categories]);
     }
+
+
+    /**
+     * going to pets page with categories for selection
+     * 
+     * @return view
+     * @return $categories
+     */
+    public function pets()
+    {
+    	$categories = Category::get();
+    	return view('admin.pets-admin', ['categories' => $categories]);
+    }
+
 }
