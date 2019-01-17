@@ -30,6 +30,14 @@ class PetController extends Controller
      */
     public function store(Request $request)
     {
+
+        $request->validate([
+            'name'        => 'required|max:256',
+            'age'         => 'required',
+            'about'       => 'required',
+            'category_id' => 'required|integer'
+        ]);
+
     	Pet::create($request->only('name', 'category_id', 'about', 'age'));
     	return back();
     }
