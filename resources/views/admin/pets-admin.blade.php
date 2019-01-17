@@ -1,6 +1,7 @@
 @extends('layouts.app')
 @section('content')
 
+
 @if ($errors->any())
     <div class="alert alert-danger">
         <ul>
@@ -33,7 +34,11 @@
 		</div>
 		<div class="form-group">
 			<label>Description</label>
+<<<<<<< HEAD
 			<textarea class="form-control" name="about" placeholder="Add some description for pet..."></textarea>
+=======
+			<textarea class="form-control" name="about">Add some description for pet...</textarea>		
+>>>>>>> ef9b37d13eda8e2a90e59d487c82a30be4d046b9
 		</div>
 		<button class="btn btn-primary" type="submit">Submit</button>
 	</form>
