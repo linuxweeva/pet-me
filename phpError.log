@@ -1,0 +1,34 @@
+[Sat Jan 12 14:21:05.289325 2019] [ssl:error] [pid 12557] AH02032: Hostname p provided via SNI and hostname pet-me.site provided via HTTP are different
+[Sat Jan 12 14:21:06.215214 2019] [ssl:error] [pid 12573] AH02032: Hostname p provided via SNI and hostname pet-me.site provided via HTTP are different
+[Sat Jan 12 14:21:07.143220 2019] [ssl:error] [pid 12574] AH02032: Hostname p provided via SNI and hostname pet-me.site provided via HTTP are different
+[Sat Jan 12 14:21:08.055758 2019] [ssl:error] [pid 12582] AH02032: Hostname p provided via SNI and hostname pet-me.site provided via HTTP are different
+[Sat Jan 12 14:21:08.971204 2019] [ssl:error] [pid 12565] AH02032: Hostname p provided via SNI and hostname pet-me.site provided via HTTP are different
+[Sat Jan 12 14:21:09.901586 2019] [ssl:error] [pid 12574] AH02032: Hostname p provided via SNI and hostname pet-me.site provided via HTTP are different
+[Sat Jan 12 14:21:10.845651 2019] [ssl:error] [pid 12582] AH02032: Hostname p provided via SNI and hostname pet-me.site provided via HTTP are different
+[Sat Jan 12 14:21:11.771185 2019] [ssl:error] [pid 12573] AH02032: Hostname p provided via SNI and hostname pet-me.site provided via HTTP are different
+[Sat Jan 12 15:40:26.721287 2019] [ssl:error] [pid 12555] AH02032: Hostname p provided via SNI and hostname pet-me.site provided via HTTP are different
+[Sat Jan 12 15:40:27.649945 2019] [ssl:error] [pid 12578] AH02032: Hostname p provided via SNI and hostname pet-me.site provided via HTTP are different
+[Sat Jan 12 15:40:28.559570 2019] [ssl:error] [pid 12582] AH02032: Hostname p provided via SNI and hostname pet-me.site provided via HTTP are different
+[Sat Jan 12 15:40:29.484371 2019] [ssl:error] [pid 12574] AH02032: Hostname p provided via SNI and hostname pet-me.site provided via HTTP are different
+[Sat Jan 12 15:40:30.395352 2019] [ssl:error] [pid 12573] AH02032: Hostname p provided via SNI and hostname pet-me.site provided via HTTP are different
+[Sat Jan 12 15:40:31.323758 2019] [ssl:error] [pid 12584] AH02032: Hostname p provided via SNI and hostname pet-me.site provided via HTTP are different
+[Sat Jan 12 15:40:32.255477 2019] [ssl:error] [pid 12557] AH02032: Hostname p provided via SNI and hostname pet-me.site provided via HTTP are different
+[Sat Jan 12 15:40:33.174301 2019] [ssl:error] [pid 12565] AH02032: Hostname p provided via SNI and hostname pet-me.site provided via HTTP are different
+[Mon Jan 14 12:36:55.925446 2019] [ssl:error] [pid 9944] AH02032: Hostname p provided via SNI and hostname pet-me.site provided via HTTP are different
+[Mon Jan 14 12:36:56.733628 2019] [ssl:error] [pid 8779] AH02032: Hostname p provided via SNI and hostname pet-me.site provided via HTTP are different
+[Mon Jan 14 12:36:57.524973 2019] [ssl:error] [pid 8776] AH02032: Hostname p provided via SNI and hostname pet-me.site provided via HTTP are different
+[Mon Jan 14 12:36:58.315474 2019] [ssl:error] [pid 12734] AH02032: Hostname p provided via SNI and hostname pet-me.site provided via HTTP are different
+[Mon Jan 14 12:36:59.084104 2019] [ssl:error] [pid 8782] AH02032: Hostname p provided via SNI and hostname pet-me.site provided via HTTP are different
+[Mon Jan 14 12:36:59.883019 2019] [ssl:error] [pid 8780] AH02032: Hostname p provided via SNI and hostname pet-me.site provided via HTTP are different
+[Mon Jan 14 12:37:00.680955 2019] [ssl:error] [pid 9944] AH02032: Hostname p provided via SNI and hostname pet-me.site provided via HTTP are different
+[Mon Jan 14 12:37:01.492464 2019] [ssl:error] [pid 9114] AH02032: Hostname p provided via SNI and hostname pet-me.site provided via HTTP are different
+[Mon Jan 14 18:57:55.786396 2019] [ssl:error] [pid 18152] AH02031: Hostname \x1f\x83\x1a~\xbb\x01 provided via SNI, but no hostname provided in HTTP request
+[Wed Jan 16 12:01:03.629472 2019] [ssl:error] [pid 17209] AH02032: Hostname mbed provided via SNI and hostname pet-me.site provided via HTTP are different
+[Wed Jan 16 12:01:57.498655 2019] [ssl:error] [pid 18601] AH02032: Hostname mbed provided via SNI and hostname pet-me.site provided via HTTP are different
+[Wed Jan 16 12:17:14.575952 2019] [ssl:error] [pid 18602] AH02032: Hostname mbed provided via SNI and hostname pet-me.site provided via HTTP are different
+[Wed Jan 16 12:34:52.380436 2019] [ssl:error] [pid 17205] AH02032: Hostname mbed provided via SNI and hostname pet-me.site provided via HTTP are different
+[Wed Jan 16 12:36:29.984955 2019] [ssl:error] [pid 17467] AH02032: Hostname mbed provided via SNI and hostname pet-me.site provided via HTTP are different
+[Wed Jan 16 13:00:40.412552 2019] [ssl:error] [pid 17207] AH02032: Hostname mbed provided via SNI and hostname pet-me.site provided via HTTP are different
+[Wed Jan 16 13:01:11.329380 2019] [ssl:error] [pid 17209] AH02032: Hostname mbed provided via SNI and hostname pet-me.site provided via HTTP are different
+[Wed Jan 16 19:23:37.444219 2019] [log_config:warn] [pid 25046] (28)No space left on device: [client 66.249.66.198:54595] AH00646: Error writing to /var/log/apache2/other_vhosts_access.log
+[Thu Jan 17 11:40:13.029564 2019] [ssl:error] [pid 3970] AH02032: Hostname mbed provided via SNI and hostname pet-me.site provided via HTTP are different
