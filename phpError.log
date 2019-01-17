@@ -32,3 +32,6 @@
 [Wed Jan 16 13:01:11.329380 2019] [ssl:error] [pid 17209] AH02032: Hostname mbed provided via SNI and hostname pet-me.site provided via HTTP are different
 [Wed Jan 16 19:23:37.444219 2019] [log_config:warn] [pid 25046] (28)No space left on device: [client 66.249.66.198:54595] AH00646: Error writing to /var/log/apache2/other_vhosts_access.log
 [Thu Jan 17 11:40:13.029564 2019] [ssl:error] [pid 3970] AH02032: Hostname mbed provided via SNI and hostname pet-me.site provided via HTTP are different
+[Thu Jan 17 17:09:05.050865 2019] [ssl:error] [pid 7377] AH02032: Hostname mbed provided via SNI and hostname pet-me.site provided via HTTP are different
+[Thu Jan 17 17:23:51.148184 2019] [ssl:error] [pid 8134] AH02032: Hostname www.project-13.icu provided via SNI and hostname project-eleven.pro provided via HTTP are different
+[Thu Jan 17 17:23:51.168074 2019] [ssl:error] [pid 7369] AH02032: Hostname www.project-13.icu provided via SNI and hostname project-eleven.pro provided via HTTP are different
