@@ -1,0 +1,32 @@
+[Fri Jan 18 09:16:43.727584 2019] [ssl:error] [pid 21491] AH02032: Hostname www.project-13.icu provided via SNI and hostname project-eleven.pro provided via HTTP are different
+[Fri Jan 18 20:38:00.468456 2019] [log_config:warn] [pid 31515] (28)No space left on device: [client 66.249.66.75:45872] AH00646: Error writing to /var/log/apache2/other_vhosts_access.log
+[Fri Jan 18 20:39:10.856719 2019] [log_config:warn] [pid 31515] (28)No space left on device: [client 66.249.66.198:46926] AH00646: Error writing to /var/log/apache2/other_vhosts_access.log
+[Fri Jan 18 20:39:12.053321 2019] [log_config:warn] [pid 31515] (28)No space left on device: [client 66.249.66.198:46926] AH00646: Error writing to /var/log/apache2/other_vhosts_access.log
+[Fri Jan 18 20:49:29.703125 2019] [log_config:warn] [pid 31570] (28)No space left on device: [client 66.249.66.76:43404] AH00646: Error writing to /var/log/apache2/other_vhosts_access.log
+[Fri Jan 18 20:52:44.509286 2019] [log_config:warn] [pid 31374] (28)No space left on device: [client 66.249.66.75:63564] AH00646: Error writing to /var/log/apache2/other_vhosts_access.log
+[Fri Jan 18 21:00:58.914471 2019] [log_config:warn] [pid 31479] (28)No space left on device: [client 66.249.66.76:43203] AH00646: Error writing to /var/log/apache2/other_vhosts_access.log
+[Fri Jan 18 21:05:34.819858 2019] [log_config:warn] [pid 31563] (28)No space left on device: [client 95.216.41.162:3064] AH00646: Error writing to /var/log/apache2/other_vhosts_access.log
+[Fri Jan 18 21:05:48.431531 2019] [log_config:warn] [pid 31862] (28)No space left on device: [client 95.216.41.162:17802] AH00646: Error writing to /var/log/apache2/other_vhosts_access.log
+[Fri Jan 18 21:05:58.627466 2019] [log_config:warn] [pid 31859] (28)No space left on device: [client 95.216.41.162:29342] AH00646: Error writing to /var/log/apache2/other_vhosts_access.log
+[Fri Jan 18 21:06:13.399768 2019] [log_config:warn] [pid 31567] (28)No space left on device: [client 95.216.41.162:46442] AH00646: Error writing to /var/log/apache2/other_vhosts_access.log
+[Fri Jan 18 21:06:24.770335 2019] [log_config:warn] [pid 31563] (28)No space left on device: [client 95.216.41.162:58800] AH00646: Error writing to /var/log/apache2/other_vhosts_access.log
+[Fri Jan 18 21:06:31.723255 2019] [log_config:warn] [pid 31859] (28)No space left on device: [client 95.216.41.162:4378] AH00646: Error writing to /var/log/apache2/other_vhosts_access.log
+[Fri Jan 18 21:06:38.596299 2019] [log_config:warn] [pid 31859] (28)No space left on device: [client 95.216.41.162:4378] AH00646: Error writing to /var/log/apache2/other_vhosts_access.log
+[Fri Jan 18 21:06:51.016685 2019] [log_config:warn] [pid 31528] (28)No space left on device: [client 95.216.41.162:28112] AH00646: Error writing to /var/log/apache2/other_vhosts_access.log
+[Fri Jan 18 21:06:56.030741 2019] [log_config:warn] [pid 31528] (28)No space left on device: [client 95.216.41.162:28112] AH00646: Error writing to /var/log/apache2/other_vhosts_access.log
+[Fri Jan 18 21:07:05.817054 2019] [log_config:warn] [pid 31567] (28)No space left on device: [client 95.216.41.162:46812] AH00646: Error writing to /var/log/apache2/other_vhosts_access.log
+[Fri Jan 18 21:07:11.213479 2019] [log_config:warn] [pid 31567] (28)No space left on device: [client 95.216.41.162:46812] AH00646: Error writing to /var/log/apache2/other_vhosts_access.log
+[Fri Jan 18 21:07:27.227534 2019] [log_config:warn] [pid 31356] (28)No space left on device: [client 95.216.41.162:7902] AH00646: Error writing to /var/log/apache2/other_vhosts_access.log
+[Fri Jan 18 21:07:50.780949 2019] [log_config:warn] [pid 31567] (28)No space left on device: [client 95.216.41.162:35716] AH00646: Error writing to /var/log/apache2/other_vhosts_access.log
+[Fri Jan 18 21:07:56.185392 2019] [log_config:warn] [pid 31567] (28)No space left on device: [client 95.216.41.162:35716] AH00646: Error writing to /var/log/apache2/other_vhosts_access.log
+[Fri Jan 18 21:08:11.102770 2019] [log_config:warn] [pid 31356] (28)No space left on device: [client 95.216.41.162:58192] AH00646: Error writing to [Tue Jan 22 08:59:35.801732 2019] [ssl:error] [pid 25430] AH02032: Hostname project-13.icu provided via SNI and hostname project-eleven.pro provided via HTTP are different
+[Wed Jan 23 01:16:05.623501 2019] [ssl:error] [pid 6136] AH02032: Hostname www.project-13.icu provided via SNI and hostname project-eleven.pro provided via HTTP are different
+[Thu Jan 24 03:21:00.257065 2019] [ssl:error] [pid 12746] AH02032: Hostname project-13.icu provided via SNI and hostname project-eleven.pro provided via HTTP are different
+[Thu Jan 24 18:33:24.643479 2019] [ssl:error] [pid 11954] AH02032: Hostname pet-me.site provided via SNI and hostname 31.131.26.126 provided via HTTP are different
+[Sat Jan 26 01:34:01.939272 2019] [ssl:error] [pid 15557] AH02032: Hostname www.project-13.icu provided via SNI and hostname project-eleven.pro provided via HTTP are different
+[Sat Jan 26 01:34:01.950880 2019] [ssl:error] [pid 15559] AH02032: Hostname www.project-13.icu provided via SNI and hostname project-eleven.pro provided via HTTP are different
+[Sat Jan 26 08:36:13.762012 2019] [ssl:error] [pid 20556] AH02032: Hostname www.project-13.icu provided via SNI and hostname project-eleven.pro provided via HTTP are different
+[Sun Jan 27 22:11:59.487905 2019] [ssl:error] [pid 14738] AH02032: Hostname www.project-13.icu provided via SNI and hostname project-eleven.pro provided via HTTP are different
+[Tue Jan 29 03:07:44.094549 2019] [ssl:error] [pid 7466] AH02032: Hostname staffordshiretenpinbowlingassociation.com provided via SNI and hostname pet-me.site provided via HTTP are different
+[Tue Jan 29 03:52:32.994653 2019] [ssl:error] [pid 13089] [client 213.32.72.110:59540] AH02042: rejecting client initiated renegotiation
+[Tue Jan 29 15:57:14.256495 2019] [ssl:error] [pid 26705] AH02032: Hostname www.project-13.icu provided via SNI and hostname project-eleven.pro provided via HTTP are different

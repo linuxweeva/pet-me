@@ -19,6 +19,8 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/privacy', 'HomeController@privacy')->name('privacy');
+Route::get('/terms', 'HomeController@terms')->name('terms');
 Route::get('/category/{id}', 'PetController@getCategory');
 Route::get( '/pet/{id}' , 'HomeController@showPet' )->name( 'pet' );
 

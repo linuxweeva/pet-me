@@ -36,4 +36,10 @@ class HomeController extends Controller
         $pet -> save();
         return view( 'pet' , compact( 'pet' ));
     }
+    public function privacy() {
+        return view( 'static.privacy' );
+    }
+    public function terms() {
+        return view( 'static.terms' );
+    }
 }
