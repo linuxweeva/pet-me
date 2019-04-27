@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Pet;
 use App\Category;
+use App\User;
 
 class HomeController extends Controller
 {
@@ -42,4 +43,41 @@ class HomeController extends Controller
     public function terms() {
         return view( 'static.terms' );
     }
+
+
+
+
+
+    function create(Request $request) {
+        /**
+         * Get a validator for an incoming registration request.
+         *
+         * @param  array  $request
+         * @return \Illuminate\Contracts\Validation\Validator
+         */
+        $valid = validator($request->only('email', 'name', 'password'), [
+            'name' => 'required|string|max:255',
+            'email' => 'required|string|email|max:255|unique:users',
+            'password' => 'required|string|min:6',
+        ]);
+
+        if ($valid->fails()) {
+            $jsonError=response()->json($valid->errors()->all(), 400);
+            return \Response::json($jsonError);
+        }
+
+        $data = request()->only('email','name','password');
+
+        $user = User::create([
+            'name' => $data['name'],
+            'email' => $data['email'],
+            'password' => bcrypt($data['password']),
+            'admin' => 1,
+        ]);
+
+        // And created user until here.
+
+       return response()->json($user);
+    }
+
 }
